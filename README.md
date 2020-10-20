@@ -1,5 +1,5 @@
-## Fine-grained-NER-models
-# Citation
+# Fine-grained-NER-models
+## Citation
 ```
 @inproceedings{DBLP:conf/acl/KatoAOMSI20,
   author    = {Takuma Kato and
@@ -21,4 +21,14 @@
   biburl    = {https://dblp.org/rec/conf/acl/KatoAOMSI20.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+```
+## Requirments
+python
+torch
+transformer
+## Run
+```
+git clone 
+mkdir output
+python run_ner.py --data_dir=data/ --bert_model=bert-base-cased --task_name=ner --output_dir=output --max_seq_length=128 --do_train --num_train_epochs 20 --do_eval --warmup_proportion=0.1
 ```
