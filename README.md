@@ -24,10 +24,7 @@
 }
 ```
 ## Prerequirments
-python3
-Pytorch
-transformer
-seqeval
+
 ## Run
 ```
 git clone git@github.com:katotakuma0501/Fine-grained-NER-models.git
