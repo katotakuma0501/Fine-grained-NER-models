@@ -32,6 +32,6 @@ seqeval
 ```
 git clone git@github.com:katotakuma0501/Fine-grained-NER-models.git
 mkdir output
-python run_ner.py --data_dir=data/ --bert_model=bert-base-cased --task_name=ner --output_dir=output --max_seq_length=128 --do_train --num_train_epochs 20 --do_eval --warmup_proportion=0.1
+python src/sum.py --data_dir=data/ --bert_model=bert-base-cased --task_name=ner --output_dir=output --max_seq_length=128 --do_train --num_train_epochs 20 --do_eval --warmup_proportion=0.1
 ```
 ## LICENCE
