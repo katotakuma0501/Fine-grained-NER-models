@@ -4,6 +4,7 @@ Codes for Embeddings of Label Components for Sequence Labeling: A Case Study of 
 ## Requirments
 ```
 torch == 1.0.0
+transformers == 2.5.1
 seqeval == 0.0.12
 ```
 
