@@ -2,8 +2,10 @@
 Codes for Embeddings of Label Components for Sequence Labeling: A Case Study of Fine-grained Named Entity Recognition[https://arxiv.org/abs/2006.01372]
 
 ## Requirments
+```
 torch == 1.0.0
 seqeval == 0.0.12
+```
 
 ## Run
 ```
