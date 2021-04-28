@@ -1,5 +1,5 @@
 # Fine-grained-NER-models
-Codes for Embeddings of Label Components for Sequence Labeling: A Case Study of Fine-grained Named Entity Recognition[https://arxiv.org/abs/2006.01372]
+Codes for [Embeddings of Label Components for Sequence Labeling: A Case Study of Fine-grained Named Entity Recognition](https://arxiv.org/abs/2006.01372)
 
 ## Requirments
 ```
