@@ -1,4 +1,16 @@
 # Fine-grained-NER-models
+Codes for Embeddings of Label Components for Sequence Labeling: A Case Study of Fine-grained Named Entity Recognition[https://arxiv.org/abs/2006.01372]
+
+## Requirments
+torch == 1.0.0
+seqeval == 0.0.12
+
+## Run
+```
+git clone git@github.com:katotakuma0501/Fine-grained-NER-models.git
+mkdir output
+python src/sum.py --data_dir=data/ --bert_model=bert-base-cased --task_name=ner --output_dir=output --max_seq_length=128 --do_train --num_train_epochs 20 --do_eval --warmup_proportion=0.1
+```
 
 ## Citation
 ```
@@ -23,12 +35,3 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
-## Prerequirments
-
-## Run
-```
-git clone git@github.com:katotakuma0501/Fine-grained-NER-models.git
-mkdir output
-python src/sum.py --data_dir=data/ --bert_model=bert-base-cased --task_name=ner --output_dir=output --max_seq_length=128 --do_train --num_train_epochs 20 --do_eval --warmup_proportion=0.1
-```
-## LICENCE
